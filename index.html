@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg4.jpg');
+}
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/bg3.png" alt="Error">
+            <div>Gym Logo</div>
+        </div>
+
+        <!-- middle box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">Services</a></li>
+                <li><a href="#" class="active">Our Team</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box -->
+        <div class="right">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to the best Gym Website</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Nmae here">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age here">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender here">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Phone Number here">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
